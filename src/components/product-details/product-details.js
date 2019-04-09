@@ -1,19 +1,24 @@
 import React, {Component} from 'react'
 import {connect} from "react-redux";
 
-class ProductDetails extends Component {
+const ProductDetails = ({img, title, price}) => {
+    return(
+        <>
+            <div>{title}</div>
+            <div>{img}</div>
+            <div>{price}</div>
+        </>
+    )
+}
+
+class ProductDetailsContainer extends Component {
 
 
-    itemId = Number(this.props.itemID)
     render() {
-        const item = this.props.products.filter(item => item.id === this.itemId)
-        const { img, title, price} = item[0]
-        return(
-            <>
-                <div>{title}</div>
-                <div>{img}</div>
-                <div>{price}</div>
-            </>
+        const itemId = Number(this.props.itemID)
+        const item = this.props.products.filter(item => item.id === itemId)
+        return (
+            <ProductDetails item={item[0]}/>
         )
     }
 }
@@ -22,4 +27,4 @@ const mapStateToProps = ({products}) => {
     return{products}
 }
 
-export default connect(mapStateToProps)(ProductDetails)
+export default connect(mapStateToProps)(ProductDetailsContainer)
