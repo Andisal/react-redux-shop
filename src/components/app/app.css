@@ -1,0 +1,12 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #333;
+    background: #f8f8f8;
+    line-height: 1.42857;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+}

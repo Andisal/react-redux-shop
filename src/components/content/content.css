@@ -1,0 +1,27 @@
+.content-page .container{
+    background: #ffffff;
+    border: 1px solid #d1d1d1;
+}
+
+.content-page {
+    margin-top: 20px;
+}
+
+
+.product-header {
+    padding: 0;
+    border-bottom: 1px solid #d1d1d1;
+    padding: 19px 23px 19px;
+}
+
+.product-grid {
+    padding-top: 20px;
+}
+
+.product-header h2 {
+    text-transform: uppercase;
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 32px;
+    margin: 0;
+    font-weight: 500;
+}

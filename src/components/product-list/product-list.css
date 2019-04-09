@@ -1,0 +1,14 @@
+.item {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px!important;
+    padding: 0 13px;
+}
+
+.item-inner {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 5px;
+}

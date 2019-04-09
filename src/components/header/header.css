@@ -1,0 +1,117 @@
+.header-container {
+    background: #fff;
+}
+
+.top-links {
+    line-height: normal;
+    padding: 8px 0 0;
+}
+
+.top-links li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.top-links li a {
+    color: #717171;
+    padding: 0 0 5px;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+.search-container {
+    margin: 9px 0px 18px;
+}
+
+.search-input {
+    border: 1px solid #ddd;
+    padding: 11px 50px 11px 10px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.search-button {
+    background-color: #e62263;
+    border: 1px solid #e62263;
+    border-radius: 0 2px 2px 0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    height: 41px;
+    line-height: 17px;
+    padding: 3px 15px 4px 15px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 9px;
+    font-size: 15px !important;
+    right: 13px;
+}
+
+.search-button span {
+    display: none;
+}
+
+.logo-block {
+    text-align: center;
+}
+
+.logo {
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.top-cart-contain {
+    position: relative;
+    margin-top: 10px;
+}
+
+.cart {
+    color: #333;
+    margin: 0px;
+    line-height: 17px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    display: block;
+    background: #e62263;
+    border: 1px solid #f1f1f1;
+    padding: 0px 10px 0px 0px;
+}
+
+.cart:before {
+    content: '\f07a';
+    font-family: Font Awesome\ 5 Free;
+    font-size: 16px;
+    color: #e62263;
+    background: #fff;
+    height: 41px;
+    width: 45px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border-right: 1px solid #f1f1f1;
+    font-weight: 900;
+}
+
+.cart-count {
+    display: inline-block;
+    color: #fff;
+    width: 30px;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 0px;
+    padding-left: 0px;
+}
+
+.top-cart-contain .price {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 0px;
+    font-size: 12px;
+}
